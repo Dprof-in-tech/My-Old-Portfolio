@@ -1,0 +1,296 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+a:hover{
+    transform: scale(1.1);
+}
+@media screen and (min-width: 500px) {
+    .body{
+        margin-top: 5%;
+        padding: 0.5rem;
+        width: 50%;
+        border: 1px solid gray;
+        border-radius: 8px;
+    }
+}
+::-webkit-scrollbar{
+    display: none;
+}
+
+/* navbar css */
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 2rem;
+    align-items: center;
+    width: 100%;
+    height: 5vh;
+    margin-top: 0.5rem;
+    padding: 0;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    font-family: "Poppins";
+    font-size: 0.9rem;
+}
+.n-middle{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;   
+}
+.n-right{
+    width: 10%;
+    height: 100%;
+    border-radius: 50%;
+}
+.n-right img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+/* intro css */
+.intro{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.intro h1{
+    font-family: "Poppins";
+    color: white;
+    font-size: 1rem;
+    max-width: 59%;
+    margin-bottom: 0;
+    margin-top: -0.2rem;
+    text-align: center;
+}
+
+/* project image css */
+.project_container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.project{
+    display: flex;
+    flex-direction: column;
+    max-height: fit-content;
+    margin-bottom: 2rem;
+}
+.project_title{
+    border-top: 1px solid gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+}
+
+.project_title a{
+    color: white;
+    font-size: 0.7rem;
+}
+.project_title h2{
+    color: gray;
+    font-size: 0.5rem;
+
+}
+.project_title p{
+    color: gray;
+    max-width: 40%;
+    text-align: start;
+    font-size: 0.5rem;
+}
+.project_image{
+    width: 100%;
+    height: 80%;
+    border-radius: 6px;
+}
+.project_image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+}
+/* Project gallery css */
+.project_gallery{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+.projectgallery_text h2{
+    color: white;
+    font-size: 0.8rem;
+    font-family: 'poppins';
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.projectgallery_text p{
+    color: gray;
+    font-size: 0.5rem;
+    font-family: 'poppins';
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.project_gallery img{
+    width: 100%;
+    height: 40vh;
+    border-radius: 8px;
+}
+.projectgallery_2ndtext{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.projectgallery_2ndtext span{
+    width: 100%;
+}
+.projectgallery_2ndtext span h2{
+    color: white;
+    font-size: 0.6rem;
+    font-family: 'poppins';
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.projectgallery_2ndtext p{
+    color: gray;
+    font-size: 0.5rem;
+    text-align: start;
+    font-family: 'poppins';
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.image_gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 0;
+}
+
+.image_container{
+    width: 40%;
+    height: 30vh;
+    margin-bottom: 1rem;
+}
+.image_container img{
+    width: 100%;
+    height: 100%;
+}
+
+/* footer css */
+.footer{
+    display: flex;
+    flex-direction: row;
+    padding: 0rem 1rem 0rem 1rem;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+}
+.footer_left{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 1rem;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+.footer h2{
+    color: gray;
+    font-size: 0.6rem;
+}
+.footer_right{
+    align-self:last baseline;
+    text-align: center;
+}
+
+/* Contact form css */
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+}
+.contact_text{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+   padding-left: 2.7rem;
+   margin-bottom: 1rem;
+   width: 90%;
+}
+.contact_text h1{
+    color: white;
+    font-size: 1.2rem;
+    margin-bottom: 0;
+    
+}
+.contact_text p{
+    color: gray;
+    font-size: 0.5rem;
+    max-width: 50%;
+}
+.contact_text h2{
+    color: white;
+    font-size: 0.8rem;
+    margin-bottom: 0;
+}
+.contact_form{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding: 0;
+    margin: 0;
+}
+label{
+    color: rgb(216, 216, 216);
+    font-size: 0.8rem;
+    padding-left: 0.3rem;
+    margin-bottom: 0.2rem;
+}
+input{
+    margin-bottom: 0.5rem;
+    height: 5vh;
+    padding-top: 0.2rem;
+    padding-left: 0.5rem;
+    border-radius: 4px;
+}
+.message{
+    max-height: 30vh;
+    min-height: 30vh;
+    max-width: 91%;
+    min-width: 91%;
+    border-radius: 6px;
+    margin-bottom: 0.3rem;
+    padding-inline-start:0.8rem ;
+    padding-inline-end: 0.8rem;
+    padding-top: 1rem;
+}
